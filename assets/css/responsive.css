@@ -1,0 +1,49 @@
+@media (max-width: 425px) {
+  .hero {
+    background: url('../images/hero.svg');
+    height: 50vh;
+  }
+
+  .hero-content {
+    padding-top: 60px;
+  }
+
+  .hero-heading {
+    font-size: 1.6rem;
+  }
+
+  .custom-input .form-control {
+    position: absolute;
+    padding-left: 1rem;
+    font-size: 0.7rem;
+  }
+
+  .scroll-down-indicator {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .hero {
+    background: url('../images/hero.svg');
+    height: 60vh;
+  }
+
+  .hero-content {
+    padding-top: 60px;
+  }
+
+  .hero-heading {
+    font-size: 1.4rem;
+  }
+
+  .custom-input .form-control {
+    position: absolute;
+    padding-left: 1rem;
+    font-size: 0.7rem;
+  }
+
+  .scroll-down-indicator {
+    display: none;
+  }
+}
