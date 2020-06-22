@@ -1,6 +1,129 @@
-@media (max-width: 425px) {
+@media (min-width: 1200px) {
+  .hero-heading {
+    font-size: 3.4rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .house-img-sm {
+    height: 380px;
+    margin-bottom: 1.5rem;
+  }
+
+  .desc-icon p {
+    font-size: 0.6rem;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .content-box-md {
+    padding: 2rem 0;
+  }
+
+  .houses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .house-item {
+    width: 500%;
+    margin: 2rem;
+  }
+
+  .indicator-btn {
+    width: 30px;
+    margin: 1rem;
+  }
+
+  .heading-sm {
+    font-size: 1.2rem;
+    margin-top: 90px;
+  }
+
+  .stat-item {
+    margin: 20px 0;
+    margin-left: 15px;
+  }
+
+  .stat-figure {
+    font-size: 1.5rem;
+  }
+
+  .stat-info {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-heading {
+    font-size: 2.2rem;
+  }
+
+  .generic-heading {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+  }
+
+  /* *** About *** */
+  .about-text {
+    font-size: 0.8rem;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .about-item {
+    height: 400px;
+  }
+
+  .about-item-heading {
+    font-size: 1.2rem;
+  }
+
+  .about-item-img {
+    width: 150px;
+  }
+
+  .about-item-text {
+    font-size: 0.7rem;
+  }
+
+  /* *** Houses *** */
+  .house-img {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    max-height: 410px;
+    height: 410px;
+    width: 100%;
+  }
+
+  .house-item {
+    margin: 1.5rem 0;
+  }
+
+  /* *** Footer *** */
+
+  .footer {
+    display: none;
+  }
+
+  .mobile-footer {
+    display: block;
+  }
+
+  /* *** Copyright *** */
+  .copyright {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 426px) {
+  .content-box-md {
+    padding: 2rem 0;
+  }
+
   .hero {
-    background: url('../images/hero.svg');
     height: 50vh;
   }
 
@@ -9,7 +132,7 @@
   }
 
   .hero-heading {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 
   .custom-input .form-control {
@@ -20,6 +143,49 @@
 
   .scroll-down-indicator {
     display: none;
+  }
+
+  /* About Styling */
+  .generic-heading {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .about-text {
+    width: 90%;
+  }
+
+  .about-item {
+    margin: 1rem 0 !important;
+  }
+
+  .stats-content {
+    text-align: center;
+    height: auto;
+    margin-top: 2rem !important;
+  }
+
+  .stats-content .generic-heading {
+    text-align: center;
+  }
+
+  .stats-img {
+    display: none;
+  }
+
+  .stat-item {
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+  .stat-figure {
+    font-size: 1rem;
+  }
+
+  .stat-info {
+    font-size: 0.7rem;
   }
 }
 
@@ -41,9 +207,5 @@
     position: absolute;
     padding-left: 1rem;
     font-size: 0.7rem;
-  }
-
-  .scroll-down-indicator {
-    display: none;
   }
 }
