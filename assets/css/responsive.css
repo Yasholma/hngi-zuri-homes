@@ -191,7 +191,6 @@
 
 @media (max-width: 320px) {
   .hero {
-    background: url('../images/hero.svg');
     height: 60vh;
   }
 

@@ -1,0 +1,120 @@
+/* *** |||| About Page ||| *** */
+.banner-about {
+  background: url('../images/about/about-banner.jpg');
+}
+
+.about {
+  margin-top: 5rem;
+}
+
+.generic-heading {
+  margin-left: 1rem;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.generic-heading::after {
+  position: absolute;
+  content: '';
+  width: 100px;
+  height: 5px;
+  background: var(--primary-color);
+  left: 0;
+  bottom: -0.8rem;
+}
+
+.about-text {
+  width: 90%;
+  font-weight: 500;
+  line-height: 180%;
+}
+
+.team-member-img {
+  position: relative;
+}
+
+.team-member-info {
+  margin-left: 5.5rem;
+}
+
+.team-name {
+  font-family: var(--text-font);
+  font-weight: 600;
+}
+
+.team-skill {
+  font-size: 0.7rem;
+  font-family: var(--text-font);
+  font-weight: 500;
+  margin: 0;
+  position: relative;
+}
+
+.team-skill::after {
+  position: absolute;
+  content: '';
+  width: 40px;
+  height: 8px;
+  background: var(--primary-color);
+  left: 0;
+  bottom: -0.5rem;
+}
+
+@media (max-width: 768px) {
+  .banner-heading {
+    font-size: 3rem;
+  }
+
+  .generic-heading {
+    margin-bottom: 2rem !important;
+  }
+
+  .team-name,
+  .team-skill {
+    margin-left: 1rem !important;
+  }
+  .team-member-info {
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner {
+    height: 300px;
+  }
+  .banner-heading {
+    font-size: 2rem;
+  }
+
+  .generic-heading {
+    text-align: center;
+    margin: 0;
+  }
+
+  .generic-heading::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .content-box-md {
+    margin: 0 !important;
+  }
+
+  .row {
+    text-align: center !important;
+  }
+
+  .about-text {
+    margin: 1.5rem auto;
+    font-size: 1rem;
+  }
+
+  .about-footer {
+    font-size: 0.8rem;
+  }
+
+  .stats img {
+    margin-left: 0 !important;
+    margin-bottom: 1rem;
+  }
+}
