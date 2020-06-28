@@ -1,0 +1,123 @@
+/* *** ||||  Page ||| *** */
+.banner-residence {
+  background: url('../images/residence/residence-banner.jpg');
+}
+
+.generic-heading {
+  margin: 0 auto;
+  margin-bottom: 2.5rem;
+  position: relative;
+  text-align: center;
+}
+
+.residence {
+  margin-bottom: 5rem;
+}
+
+.residence .generic-heading::after {
+  position: absolute;
+  content: '';
+  width: 100px;
+  height: 5px;
+  background: var(--primary-color);
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -0.8rem;
+}
+
+.residence-item {
+  margin: 8rem 0;
+}
+
+.residence .col-3 > img {
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+
+.residence .col-3 > img:hover {
+  transform: scale(1.03);
+}
+
+.residence-main-container {
+  position: relative;
+}
+
+.residence-alert {
+  background: var(--primary-color);
+  display: inline-block;
+  width: 130px;
+  text-align: center;
+  padding: 0.5rem;
+  color: var(--white-color);
+  font-size: 1rem;
+  position: absolute;
+  top: 1.5rem;
+}
+
+.residence-main {
+  width: 100%;
+}
+
+.residence-heading {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.residence-text {
+  font-size: 1rem;
+  line-height: 180%;
+}
+
+.house-desc,
+.residence-text {
+  font-family: var(--text-font);
+  font-weight: 500;
+}
+
+.residence-btn {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.residence-footer,
+.residence-footer-header {
+  font-family: var(--text-font);
+}
+
+.residence-footer-header {
+  font-weight: bold;
+}
+
+.residence-footer-text {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+@media (max-width: 768px) {
+  .banner-heading {
+    font-size: 3rem;
+  }
+
+  .generic-heading {
+    margin-bottom: 2rem !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner {
+    height: 300px;
+  }
+  .banner-heading {
+    font-size: 2rem;
+  }
+
+  .generic-heading {
+    text-align: center;
+    margin: 0;
+  }
+
+  .generic-heading::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
