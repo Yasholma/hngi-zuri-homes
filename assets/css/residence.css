@@ -98,8 +98,20 @@
     font-size: 3rem;
   }
 
+  .residence-item {
+    margin: 5rem 0;
+  }
+
+  .residence-btn {
+    margin-bottom: 3rem;
+  }
+
   .generic-heading {
     margin-bottom: 2rem !important;
+  }
+
+  .residence-text {
+    font-size: 0.8rem;
   }
 }
 
