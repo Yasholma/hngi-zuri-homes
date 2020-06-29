@@ -45,6 +45,42 @@
   color: #e0e0e0;
 }
 
+.contact-img {
+  z-index: 3;
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.map {
+  margin-top: -6rem;
+  z-index: 1;
+  margin-bottom: 10rem;
+}
+
+.contact-desc {
+  background: var(--primary-color);
+  height: 450px;
+  z-index: 1;
+  padding: 160px 3rem;
+}
+
+@media (min-width: 1200px) {
+  .map {
+    margin-top: -8rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .contact-img {
+    width: 100%;
+  }
+
+  .map {
+    margin-top: -4rem;
+  }
+}
+
 @media (max-width: 768px) {
   .banner-heading {
     font-size: 3rem;
@@ -52,6 +88,15 @@
 
   .generic-heading {
     margin-bottom: 2rem !important;
+  }
+
+  .map {
+    margin-bottom: 5rem;
+  }
+
+  .contact-desc,
+  .contact-img {
+    display: none;
   }
 }
 
@@ -71,5 +116,9 @@
   .generic-heading::after {
     left: 50%;
     transform: translateX(-50%);
+  }
+
+  .map {
+    margin-top: 0;
   }
 }

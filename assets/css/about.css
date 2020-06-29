@@ -61,6 +61,9 @@
 }
 
 @media (max-width: 768px) {
+  .banner {
+    height: 400px;
+  }
   .banner-heading {
     font-size: 3rem;
   }
@@ -79,11 +82,12 @@
 }
 
 @media (max-width: 425px) {
-  .banner {
-    height: 300px;
-  }
   .banner-heading {
     font-size: 2rem;
+  }
+
+  .content-box-md {
+    margin-top: -3rem;
   }
 
   .generic-heading {
