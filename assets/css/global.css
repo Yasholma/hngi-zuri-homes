@@ -254,6 +254,20 @@ ul {
   color: var(--primary-color);
 }
 
+/* Mobile Footer Contact Info */
+.mobile-contact {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.mobile-phone {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 /* *** Copyright *** */
 .copyright {
   color: var(--primary-color);
