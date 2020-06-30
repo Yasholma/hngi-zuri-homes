@@ -121,4 +121,8 @@
     margin-left: 0 !important;
     margin-bottom: 1rem;
   }
+
+  .team-m-sm {
+    margin-left: 0;
+  }
 }
