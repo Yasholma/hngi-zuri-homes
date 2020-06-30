@@ -41,6 +41,12 @@
   font-size: 0.8rem;
 }
 
+.contact-form .form-control:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: none;
+}
+
 .contact-form .form-control::placeholder {
   color: #e0e0e0;
 }

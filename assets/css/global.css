@@ -12,9 +12,13 @@
   --white-color: #fff;
 }
 
+body,
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: var(--text-font);
-  overflow-x: hidden;
 }
 
 h1,
@@ -67,6 +71,10 @@ ul {
 
 .content-box-md {
   padding: 5rem 0;
+}
+
+.content-box-sm {
+  padding: 0 0 5rem;
 }
 
 /* Navbar Styling */
@@ -123,7 +131,7 @@ ul {
 }
 
 .navbar-toggler[aria-expanded='true'] .bar::before {
-  transform: rotate(45deg) translateY(9px);
+  transform: rotate(45deg) translateY(11px);
 }
 
 .navbar-toggler[aria-expanded='true'] .bar::after {
@@ -223,6 +231,12 @@ ul {
   color: var(--primary-color);
 }
 
+.mobile-footer .card {
+  border-radius: 0;
+  border-right: 0;
+  border-left: 0;
+}
+
 .contact-us {
   background: var(--primary-color);
 }
@@ -234,6 +248,10 @@ ul {
 .contact-us .link {
   color: var(--primary-color);
   font-size: 0.65rem;
+}
+
+.slick-dots li.slick-active button:before {
+  color: var(--primary-color);
 }
 
 /* *** Copyright *** */

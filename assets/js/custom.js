@@ -1,6 +1,15 @@
 // Slick Slider Configuration
 $(document).ready(function () {
-  $('.sliders').slick({
+  // Homepage Sliders
+  $('.home-sliders').slick({
+    autoplaySpeed: 2000,
+    slidesToShow: 3,
+    dots: true,
+    prevArrow: $('.prev-btn'),
+    nextArrow: $('.next-btn'),
+  })
+
+  $('.residence-sliders').slick({
     autoplaySpeed: 2000,
     slidesToShow: 4,
     dots: true,
@@ -21,4 +30,12 @@ $(document).ready(function () {
       },
     ],
   })
+})
+
+var docWidth = document.documentElement.offsetWidth
+
+;[].forEach.call(document.querySelectorAll('*'), function (el) {
+  if (el.offsetWidth > docWidth) {
+    console.log(el)
+  }
 })

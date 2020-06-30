@@ -120,6 +120,31 @@
   margin: 1rem 2rem;
   width: 40px;
   cursor: pointer;
+  transition: all 0.3s;
+}
+
+.indicator-btn:active {
+  transform: translateX(5px);
+}
+
+/* Mobile Sliders */
+.mobile-sliders {
+  display: none;
+}
+
+.mobile-sliders .link {
+  color: var(--primary-color);
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.mobile-sliders .link:hover {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.mobile-sliders .link:hover img {
+  transform: translateX(3px);
 }
 
 /* *** Houses Styling *** */
@@ -140,12 +165,22 @@
   transform: scale(1.01);
 }
 
+.premium::after {
+  position: absolute;
+  content: '';
+  background: rgba(64, 112, 255, 0.5);
+  width: 100%;
+  height: 72%;
+  top: 0;
+  cursor: pointer;
+}
+
 .img-overlay {
   position: absolute;
   content: '';
   background: rgba(64, 112, 255, 0.5);
   width: 100%;
-  height: 71%;
+  height: 72%;
   top: 0;
   cursor: pointer;
 }
@@ -155,7 +190,7 @@
   color: var(--white-color);
   position: absolute;
   top: -1rem;
-  right: 0.1rem;
+  right: 0;
   font-size: 0.8rem;
   width: 200px;
   font-weight: 500;

@@ -79,6 +79,10 @@
   padding-right: 2rem;
 }
 
+.residence-footer {
+  overflow-x: hidden;
+}
+
 .residence-footer,
 .residence-footer-header {
   font-family: var(--text-font);
@@ -86,6 +90,7 @@
 
 .residence-footer-header {
   font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .residence-footer-text {
@@ -126,7 +131,8 @@
   .banner-heading {
     font-size: 2rem;
   }
-  .sliders img {
+
+  .residence-sliders img {
     width: 100%;
     height: 130px;
   }
@@ -139,6 +145,18 @@
   .residence-text,
   .residence-btn {
     text-align: center;
+    overflow-x: hidden;
+  }
+
+  .residence-footer-header {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .residence-footer-text {
+    width: 90%;
+    font-size: 0.8rem;
+    margin: 1rem auto;
   }
 
   .residence-btn {
@@ -165,11 +183,6 @@
   .generic-heading::after {
     left: 50%;
     transform: translateX(-50%);
-  }
-
-  .sliders img {
-    width: 100%;
-    height: 130px;
   }
 
   .house-desc {

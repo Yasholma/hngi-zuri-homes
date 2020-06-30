@@ -12,6 +12,11 @@
       crossorigin="anonymous"
     />
 
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/slick.css" />
+    <!-- Slick Slider theme -->
+    <link rel="stylesheet" href="./assets/css/slick-theme.css" />
+
     <!-- External Custom CSS -->
     <link rel="stylesheet" href="./assets/css/global.css" />
     <link rel="stylesheet" href="./assets/css/homepage.css" />
@@ -101,7 +106,7 @@
         <!-- About Zuri Hotel -->
         <div class="content-box-lg">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 pr-4 about-image">
               <img
                 src="./assets/images/about.jpg"
                 alt="About"
@@ -215,7 +220,7 @@
 
       <!-- Sliders -->
       <div class="sliders">
-        <div class="row">
+        <div class="row home-sliders">
           <!-- Slider Item 1 -->
           <div class="col-md-4 slider-item">
             <img
@@ -256,9 +261,9 @@
           </div>
 
           <!-- Slider Item 4 -->
-          <!-- <div class="col-md-4 slider-item">
+          <div class="col-md-4 slider-item">
             <img
-              src="./assets/images/sliders/house-1.svg"
+              src="./assets/images/sliders/house-1.jpg"
               alt="Exclusive Apartment"
               class="img-fluid slider-img"
             />
@@ -266,7 +271,20 @@
               <p class="slider-name m-0">AI Apartment</p>
               <a href="#" class="slider-link">Explore ></a>
             </div>
-          </div> -->
+          </div>
+
+          <!-- Slider Item 5 -->
+          <div class="col-md-4 slider-item">
+            <img
+              src="./assets/images/sliders/house-3.jpg"
+              alt="Exclusive Apartment"
+              class="img-fluid slider-img"
+            />
+            <div class="slider-desc p-2 px-3">
+              <p class="slider-name m-0">Exclusive Apartment</p>
+              <a href="#" class="slider-link">Explore ></a>
+            </div>
+          </div>
         </div>
 
         <!-- Indicators -->
@@ -275,13 +293,69 @@
             <img
               src="./assets/images/icons/prev.svg"
               alt="Indicator"
-              class="indicator-btn"
+              class="indicator-btn prev-btn"
             />
             <img
               src="./assets/images/icons/next.svg"
               alt="Indicator"
-              class="indicator-btn"
+              class="indicator-btn next-btn"
             />
+          </div>
+        </div>
+      </div>
+
+      <div class="sliders mobile-sliders">
+        <div class="row">
+          <!-- Slider Item 1 -->
+          <div class="col-md-4 slider-item">
+            <img
+              src="./assets/images/sliders/house-1.jpg"
+              alt="Exclusive Apartment"
+              class="img-fluid slider-img"
+            />
+            <div class="slider-desc p-2 px-3">
+              <p class="slider-name m-0">Exclusive Apartment</p>
+              <a href="#" class="slider-link">Explore ></a>
+            </div>
+          </div>
+
+          <!-- Slider Item 2 -->
+          <div class="col-md-4 slider-item my-3 my-md-0">
+            <img
+              src="./assets/images/sliders/house-2.jpg"
+              alt="Exclusive Estate"
+              class="img-fluid slider-img"
+            />
+            <div class="slider-desc p-2 px-3">
+              <p class="slider-name m-0">Exclusive Estate</p>
+              <a href="#" class="slider-link">Explore ></a>
+            </div>
+          </div>
+
+          <!-- Slider Item 3 -->
+          <div class="col-md-4 slider-item">
+            <img
+              src="./assets/images/sliders/house-3.jpg"
+              alt="Exclusive Apartment"
+              class="img-fluid slider-img"
+            />
+            <div class="slider-desc p-2 px-3">
+              <p class="slider-name m-0">AI Apartment</p>
+              <a href="#" class="slider-link">Explore ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Indicators -->
+        <div class="row">
+          <div class="col-md-12 text-right">
+            <a href="#" class="link mr-3 mt-2 d-block"
+              >See More
+              <img
+                src="./assets/images/icons/tick-arrow-right.svg"
+                class="icon"
+                alt="Icon"
+            /></a>
           </div>
         </div>
       </div>
@@ -372,9 +446,8 @@
                 <img
                   src="./assets/images/houses/house-5.jpg"
                   alt="Houses"
-                  class="img-fluid house-img house-img-sm"
+                  class="img-fluid house-img"
                 />
-                <div class="img-overlay"></div>
                 <h4 class="house-price font-weight-bold mt-2">
                   &#8358; 180,000,000
                 </h4>
@@ -434,7 +507,7 @@
                 <img
                   src="./assets/images/houses/house-6.jpg"
                   alt="Houses"
-                  class="img-fluid house-img house-img-sm"
+                  class="img-fluid house-img"
                 />
                 <h4 class="house-price font-weight-bold mt-2">
                   &#8358; 400,000,000
@@ -495,7 +568,7 @@
                 <img
                   src="./assets/images/houses/house-7.jpg"
                   alt="Houses"
-                  class="img-fluid house-img house-img-sm"
+                  class="img-fluid house-img"
                 />
                 <h4 class="house-price font-weight-bold mt-2">
                   &#8358; 30,000,000
@@ -556,7 +629,7 @@
 
     <!-- *** Stats Starts *** -->
     <section class="stats">
-      <div class="content-box-md">
+      <div class="content-box-sm">
         <div class="container">
           <div class="row">
             <div class="col-md-6 mr-auto">
@@ -768,7 +841,7 @@
     <footer class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-2">
+          <div class="col-md-3">
             <h4 class="footer-header">About Zuri Homes</h4>
             <ul class="footer-list">
               <li class="item"><a href="#" class="link">Our Mission</a></li>
@@ -779,7 +852,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-md-2">
+          <!-- <div class="col-md-2">
             <h4 class="footer-header mb-5">Projects</h4>
             <ul class="footer-list">
               <li class="item"><a href="#" class="link">Building</a></li>
@@ -791,8 +864,8 @@
                 <a href="#" class="link special-link">Constructions</a>
               </li>
             </ul>
-          </div>
-          <div class="col-md-2">
+          </div> -->
+          <div class="col-md-3">
             <h4 class="footer-header mb-5">Find A Home</h4>
             <ul class="footer-list">
               <li class="item"><a href="#" class="link">Buy</a></li>
@@ -802,7 +875,7 @@
               <li class="item"><a href="#" class="link">Rentals</a></li>
             </ul>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-3">
             <h4 class="footer-header mb-5">Collaborate</h4>
             <ul class="footer-list">
               <li class="item"><a href="#" class="link">Become An Agent</a></li>
@@ -811,7 +884,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <h4 class="footer-header mb-5">Contact Us</h4>
             <ul class="footer-list">
               <li class="item">
@@ -899,54 +972,6 @@
                 <li class="item">
                   <a href="#" class="link">Become An Investor</a>
                 </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <!-- Projects Accordion -->
-        <div class="card">
-          <div class="card-header bg-primary" id="headingOne">
-            <h2 class="mb-0">
-              <button
-                class="btn btn-primary border-0 bg-primary btn-block m-0 text-center"
-                type="button"
-                style="outline: none;"
-                data-toggle="collapse"
-                data-target="#projects"
-                aria-expanded="true"
-                aria-controls="projects"
-              >
-                <div class="row">
-                  <div class="col-8 text-center">
-                    Projects
-                  </div>
-                  <div class="col-4">
-                    <img
-                      class="ml-3"
-                      src="./assets/images/icons/arrow-down.svg"
-                      alt="Icon"
-                    />
-                  </div>
-                </div>
-              </button>
-            </h2>
-          </div>
-
-          <div
-            id="projects"
-            class="collapse"
-            aria-labelledby="headingOne"
-            data-parent="#footerAccordion"
-          >
-            <div class="card-body">
-              <ul class="footer-list">
-                <li class="item"><a href="#" class="link">Building</a></li>
-                <li class="item">
-                  <a href="#" class="link">Interior Decorations</a>
-                </li>
-                <li class="item"><a href="#" class="link">Furnishing</a></li>
-                <li class="item"><a href="#" class="link">Constructions</a></li>
               </ul>
             </div>
           </div>
@@ -1122,6 +1147,10 @@
       crossorigin="anonymous"
     ></script>
     <!-- External JS File -->
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
     <script src="./assets/js/custom.js"></script>
     <!-- *** Scripts Ends *** -->
   </body>

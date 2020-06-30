@@ -67,6 +67,14 @@
   }
 
   /* *** About *** */
+
+  .about-image {
+    padding-right: 1rem !important;
+  }
+
+  .about .generic-heading {
+    margin-top: 2rem;
+  }
   .about-text {
     font-size: 0.8rem;
     width: 100%;
@@ -186,6 +194,14 @@
 
   .stat-info {
     font-size: 0.7rem;
+  }
+
+  .sliders {
+    display: none;
+  }
+
+  .mobile-sliders {
+    display: block;
   }
 }
 
