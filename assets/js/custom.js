@@ -1,7 +1,7 @@
 // Preloader
 $(window).on('load', function () {
-  $('#status').fadeOut()
-  $('#preloader').delay(500).fadeOut()
+  // $('#status').fadeOut()
+  // $('#preloader').delay(500).fadeOut()
 })
 
 // Slick Slider Configuration

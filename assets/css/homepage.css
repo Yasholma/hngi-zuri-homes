@@ -39,6 +39,10 @@
   bottom: 10rem;
   font-size: 0.8rem;
   transform: rotate(-90deg);
+  animation-name: slideDown;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .scroll-down-indicator::after {
@@ -301,4 +305,17 @@
   font-size: 0.8rem;
   width: 80%;
   margin: 2rem auto;
+}
+
+/* Animations */
+@keyframes slideDown {
+  0% {
+    transform: rotate(-90deg) translateX(-7px);
+  }
+  50% {
+    transform: rotate(-90deg) translateX(7px);
+  }
+  100% {
+    transform: rotate(-90deg) translateX(0);
+  }
 }
