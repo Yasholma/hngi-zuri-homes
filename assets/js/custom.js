@@ -1,3 +1,9 @@
+// Preloader
+$(window).on('load', function () {
+  $('#status').fadeOut()
+  $('#preloader').delay(500).fadeOut()
+})
+
 // Slick Slider Configuration
 $(document).ready(function () {
   // Homepage Sliders
@@ -30,12 +36,4 @@ $(document).ready(function () {
       },
     ],
   })
-})
-
-var docWidth = document.documentElement.offsetWidth
-
-;[].forEach.call(document.querySelectorAll('*'), function (el) {
-  if (el.offsetWidth > docWidth) {
-    console.log(el)
-  }
 })
