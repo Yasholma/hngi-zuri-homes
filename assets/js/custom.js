@@ -37,3 +37,8 @@ $(document).ready(function () {
     ],
   })
 })
+
+// Wow.js Animation
+$(function () {
+  new WOW().init()
+})
