@@ -1,6 +1,6 @@
 /* *** Hero Styling *** */
 .hero {
-  background: url('../images/hero.jpg');
+  background: url('../images/hero.png');
   height: 100vh;
   background-size: cover;
   position: relative;
