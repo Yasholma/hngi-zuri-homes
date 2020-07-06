@@ -31,7 +31,7 @@ $(document).ready(function () {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slideToScroll: 1,
         },
       },
@@ -47,7 +47,7 @@ $(function () {
 // Magnific POP UP
 $(function () {
   // Residence Main Images
-  $('.residence-main-container').magnificPopup({ delegate: 'a', type: 'image' })
+  // $('.residence-main-container').magnificPopup({ delegate: 'a', type: 'image' })
 
   // Residence Child Images //
   // Residence 1
