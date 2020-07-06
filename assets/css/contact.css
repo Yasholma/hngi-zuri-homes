@@ -55,12 +55,11 @@
   z-index: 3;
   position: relative;
   width: 80%;
-  margin: 0 auto;
+  height: 400px;
+  margin: 1rem auto 0;
 }
 
 .map {
-  margin-top: -6rem;
-  z-index: 1;
   margin-bottom: 10rem;
 }
 
@@ -68,7 +67,7 @@
   background: var(--primary-color);
   height: 450px;
   z-index: 1;
-  padding: 160px 3rem;
+  padding: 100px 3rem;
 }
 
 @media (min-width: 1200px) {

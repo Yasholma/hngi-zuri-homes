@@ -120,6 +120,11 @@
   color: var(--secondary-color);
 }
 
+.slick-slider {
+  cursor: grab;
+  outline: none;
+}
+
 .indicator-btn {
   margin: 1rem 2rem;
   width: 40px;
