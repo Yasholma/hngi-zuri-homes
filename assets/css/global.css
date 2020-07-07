@@ -236,8 +236,8 @@ ul {
   width: 60px;
   height: 3px;
   background: var(--white-color);
-  bottom: -0.2rem;
-  left: 0;
+  bottom: -0.4rem;
+  left: 0.1rem;
 }
 
 .social-icons img {
