@@ -46,13 +46,7 @@ $(function () {
 
 // Magnific POP UP
 $(function () {
-  // Residence Main Images
-  // $('.residence-main-container').magnificPopup({ delegate: 'a', type: 'image' })
-
-  // Residence Child Images //
-  // Residence 1
-
-  // Residence 2
+  // Residence
   magnifyImages('residence-1')
   magnifyImages('residence-2')
   magnifyImages('residence-3')
@@ -64,6 +58,7 @@ $(function () {
   magnifyImages('residence-9')
 })
 
+// Function that Adds images to magnify popup
 function magnifyImages(id) {
   $(`#${id}`).magnificPopup({
     delegate: 'a',
