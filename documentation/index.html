@@ -258,13 +258,14 @@
     - residence.css             - (Residence Specific CSS file) 
     - contact.css               - (Contact Specific CSS file) 
     - responsive.css            - (Responsive Styling CSS file) 
-    - slick.css                 - (Slider CSS file) 
-    - slick.theme.css           - (Slider Theme CSS file) 
+    - slick/slick.css                 - (Slider CSS file) 
+    - slick/slick.theme.css           - (Slider Theme CSS file) 
+    - magnific-popup/magnific-popup.min.css           - (Magnific Popup Theme CSS file) 
 
     - bootstrap/bootstrap.min.css - (Bootstrap Minified CSS file)
     - animate/animate.min.css     - (Animation Minified CSS file)
 
-  - fonts/  - contains fonts for slick slider library
+    - slick/fonts/  - contains fonts for slick slider library
 </pre
         >
       </section>
@@ -302,6 +303,8 @@
 &lt;script src=&quot;./assets/js/slick/slick.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;    
 &lt;!-- Wow JS --&gt;
 &lt;script src=&quot;./assets/js/wow/wow.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;   
+&lt;!-- Magnific POPUP JS --&gt;
+&lt;script src=&quot;./assets/js/magnific-popup/jquery.magnific-popup.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;   
 &lt;!-- Custom JS --&gt;
 &lt;script src=&quot;./assets/js/custom.js&quot;&gt;&lt;/script&gt;
 </pre
@@ -360,7 +363,7 @@
       </section>
       <section id="icons">
         <div class="page-header">
-          <h3>Icons</h3>
+          <h3>Icons/Illustrators</h3>
           <hr class="notop" />
         </div>
         <div>
@@ -369,15 +372,24 @@
         <div>
           &nbsp;
         </div>
-
-        <div>
-          &nbsp;
-        </div>
         <div>
           <p>
             We are using svg fonts which you can get more and add to
             assets/images/icons
           </p>
+        </div>
+        <pre class="prettyprint lang-html linenums">
+&lt;a href=&quot;./residence.html&quot; class=&quot;link mr-3 mt-2 d-block&quot;
+    &gt;See More
+    &lt;img
+      src=&quot;./assets/images/icons/tick-arrow-right.svg&quot;
+      class=&quot;icon&quot;
+      alt=&quot;Icon&quot;
+    /&gt;
+  &lt;/a&gt;
+        </pre>
+        <div>
+          &nbsp;
         </div>
       </section>
       <section id="logo">
@@ -520,7 +532,8 @@ $(document).ready(function () {
         <div>
           change&nbsp;
         </div>
-        <pre class="prettyprint lang-html linenums">change the src="https://www.google.com/maps/embed?pb=XXXXXXXX" url
+        <pre class="prettyprint lang-html linenums">
+change the src="https://www.google.com/maps/embed?pb=XXXXXXXX" url
 &lt;iframe
 	src=""
 	width="100%"
@@ -531,7 +544,8 @@ $(document).ready(function () {
 	aria-hidden="false"
 	tabindex="0"
 &gt;&lt;/iframe&gt;
-		</pre>
+		</pre
+        >
 
         <div>
           to
@@ -593,6 +607,17 @@ $(document).ready(function () {
           <strong>wow.js</strong> -&nbsp;<a
             href="http://mynameismatthieu.com/WOW/"
             >http://mynameismatthieu.com/WOW</a
+          >/
+        </div>
+        <div>
+          <strong>freepik</strong> -&nbsp;<a href="https://stories.freepik.com/"
+            >https://stories.freepik.com/</a
+          >/
+        </div>
+        <div>
+          <strong>magnific popup</strong> -&nbsp;<a
+            href="https://dimsemenov.com/plugins/magnific-popup/"
+            >https://dimsemenov.com/plugins/magnific-popup/</a
           >/
         </div>
         <div>

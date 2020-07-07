@@ -131,6 +131,10 @@
   transform: translateX(5px);
 }
 
+.slick-slider {
+  cursor: grab;
+}
+
 /* Mobile Sliders */
 .mobile-sliders {
   display: none;
