@@ -34,10 +34,6 @@
   transition: all 0.3s cubic-bezier(0.895, 0.03, 0.685, 0.22);
 }
 
-.residence .col-3 > img:hover {
-  transform: scale(1.03);
-}
-
 .residence-main-container {
   position: relative;
 }
@@ -61,6 +57,7 @@
 .residence-heading {
   font-weight: bold;
   font-size: 1.5rem;
+  overflow: hidden;
 }
 
 .residence-text {
@@ -94,12 +91,16 @@
 }
 
 .residence-footer-text {
-  width: 90%;
+  width: 65%;
   margin: 2rem auto;
 }
 
 .slick-dots li.slick-active button:before {
   color: var(--primary-color);
+}
+
+.slick-slide {
+  outline: none;
 }
 
 @media (max-width: 768px) {
